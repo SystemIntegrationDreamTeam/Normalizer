@@ -13,10 +13,14 @@ public class JResponse {
 
     String ssn;
     String interestRate;
+    String bankName;
 
     public JResponse(String ssn, String interestRate) {
         this.ssn = ssn;
         this.interestRate = interestRate;
     }
 
+    public void setBank(String bankName){
+    this.bankName = bankName;
+    }
 }
